@@ -12,6 +12,13 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>1_Ejercicio.cpp</itemPath>
+      <itemPath>2_Ejercicio.cpp</itemPath>
+      <itemPath>3_Ejercicio.cpp</itemPath>
+      <itemPath>4_Ejercicio.cpp</itemPath>
+      <itemPath>5_EjercicioClass_TrianguloRectangulo.cpp</itemPath>
+      <itemPath>6_EjercicioClass_TrianguloRectangulo.cpp</itemPath>
+      <itemPath>7_EjercicioClass_Sueldo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="7_EjercicioClass_Sueldo.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,6 +66,26 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="1_Ejercicio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="2_Ejercicio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="3_Ejercicio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="4_Ejercicio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="5_EjercicioClass_TrianguloRectangulo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="6_EjercicioClass_TrianguloRectangulo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="7_EjercicioClass_Sueldo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>

@@ -35,6 +35,13 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/1_Ejercicio.o \
+	${OBJECTDIR}/2_Ejercicio.o \
+	${OBJECTDIR}/3_Ejercicio.o \
+	${OBJECTDIR}/4_Ejercicio.o \
+	${OBJECTDIR}/5_EjercicioClass_TrianguloRectangulo.o \
+	${OBJECTDIR}/6_EjercicioClass_TrianguloRectangulo.o \
+	${OBJECTDIR}/7_EjercicioClass_Sueldo.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +68,41 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/algoritmos_estructura_datos.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/algoritmos_estructura_datos ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/1_Ejercicio.o: 1_Ejercicio.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1_Ejercicio.o 1_Ejercicio.cpp
+
+${OBJECTDIR}/2_Ejercicio.o: 2_Ejercicio.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/2_Ejercicio.o 2_Ejercicio.cpp
+
+${OBJECTDIR}/3_Ejercicio.o: 3_Ejercicio.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/3_Ejercicio.o 3_Ejercicio.cpp
+
+${OBJECTDIR}/4_Ejercicio.o: 4_Ejercicio.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4_Ejercicio.o 4_Ejercicio.cpp
+
+${OBJECTDIR}/5_EjercicioClass_TrianguloRectangulo.o: 5_EjercicioClass_TrianguloRectangulo.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/5_EjercicioClass_TrianguloRectangulo.o 5_EjercicioClass_TrianguloRectangulo.cpp
+
+${OBJECTDIR}/6_EjercicioClass_TrianguloRectangulo.o: 6_EjercicioClass_TrianguloRectangulo.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/6_EjercicioClass_TrianguloRectangulo.o 6_EjercicioClass_TrianguloRectangulo.cpp
+
+${OBJECTDIR}/7_EjercicioClass_Sueldo.o: 7_EjercicioClass_Sueldo.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/7_EjercicioClass_Sueldo.o 7_EjercicioClass_Sueldo.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
